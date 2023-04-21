@@ -1,5 +1,9 @@
-import React from "react";
+import UserForm from "../../features/UserForm";
 
 export default function index() {
-  return <div>index</div>;
+  return (
+    <div>
+      <UserForm />
+    </div>
+  );
 }
