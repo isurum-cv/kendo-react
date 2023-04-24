@@ -13,6 +13,7 @@ export default function NumberInput({ number, setNumber }: NumberInputProps) {
       onValueChange={(e: InputNumberValueChangeEvent) => setNumber(e.value)}
       showButtons
       mode="decimal"
+      className="w-full"
     />
   );
 }

@@ -9,6 +9,7 @@ const Calendar = ({ date, onChange }: CalendarTypes) => {
         onChange(e.value || null);
       }}
       showIcon
+      className="w-full"
     />
   );
 };
