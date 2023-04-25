@@ -7,7 +7,7 @@ export default function Editor({ text, setText }: EditorProps) {
     <EditorPR
       value={text}
       onTextChange={(e: EditorTextChangeEvent) => setText(e.textValue)}
-      style={{ height: "320px" }}
+      style={{ height: "150px" }}
     />
   );
 }

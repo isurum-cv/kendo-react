@@ -3,11 +3,7 @@ import { InputTypes } from "./types";
 
 const Input = ({ placeholder }: InputTypes) => {
   return (
-    <InputText
-      type="text"
-      className="p-inputtext-sm w-3"
-      placeholder={placeholder}
-    />
+    <InputText type="text" className=" w-full" placeholder={placeholder} />
   );
 };
 

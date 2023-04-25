@@ -20,7 +20,7 @@ const MultiSelect = ({
         optionLabel="name"
         placeholder="Select Cities"
         maxSelectedLabels={3}
-        className="w-full md:w-20rem"
+        className="w-full"
       />
     </div>
   );
